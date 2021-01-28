@@ -8,8 +8,6 @@ import products from './products';
 const App = () => {
 	return (
 		<>
-			<header>
-			</header>
 			<main>
 				<h1>Products</h1>
 				<div className="products-container">

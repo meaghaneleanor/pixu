@@ -1,6 +1,5 @@
-header {
-	background: darkgray;
-	padding: 2rem;
+body {
+	background-color: #F2F2F2;
 }
 
 main {
@@ -21,7 +20,7 @@ main {
 
 
 .product-card {
-	background-color: #F7F7F7;
+	background-color: #FFF;
 	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	cursor: pointer;
 	color: black;
@@ -63,6 +62,18 @@ main {
 
 .product-card__image {
 	width: 100%;
+}
+
+.product-card__rating-container {
+	svg {
+		padding: 0 .25rem;
+	}
+}
+
+.product-card__rating--unfilled {
+	svg {
+		fill: grey;
+	}
 }
 
 .product-card__button--add {
