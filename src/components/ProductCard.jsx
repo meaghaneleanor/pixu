@@ -4,7 +4,7 @@ import StarRating from './StarRating';
 
 const ProductCard = ({productImg, productAltText, productTitle, productPrice, productRating}) => {
 	return (
-		<a href="" className="product-card">
+		<a href="#" className="product-card">
 			<div className="product-card__image-container">
 				<img className="product-card__image" src={productImg} alt={productAltText}/>
 				<span className="product-card__button--add">Add to cart</span>
