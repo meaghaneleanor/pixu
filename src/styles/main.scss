@@ -48,11 +48,6 @@ main {
 	}
 }
 
-.product-card + .product-card__button--add:focus {
-	display: block;
-	opacity: 50%;
-}
-
 .product-card__image-container {
 	position: relative;
 	display: flex;
